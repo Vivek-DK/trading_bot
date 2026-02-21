@@ -1,0 +1,12 @@
+2026-02-21 19:10:31,890 | ERROR | trading_bot | Validation/API failure -> Symbol looks invalid (example: BTCUSDT)
+2026-02-21 19:10:44,736 | INFO | trading_bot | Binance Futures testnet client initialized
+2026-02-21 19:10:44,736 | INFO | trading_bot | Market order -> BTCUSDT BUY 0.002
+2026-02-21 19:10:44,737 | DEBUG | trading_bot | API REQUEST futures_create_order -> {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2026-02-21 19:10:45,952 | DEBUG | trading_bot | API RESPONSE futures_create_order -> {'orderId': 12441573990, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ307cbe0baa0abe83547c15', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771681244327}
+2026-02-21 19:10:45,953 | INFO | trading_bot | Order result -> id=12441573990 status=NEW
+2026-02-21 19:10:57,866 | INFO | trading_bot | Binance Futures testnet client initialized
+2026-02-21 19:10:57,866 | INFO | trading_bot | Limit order -> BTCUSDT SELL 0.001 @ 100000.0
+2026-02-21 19:10:57,867 | DEBUG | trading_bot | API REQUEST futures_create_order -> {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': 0.001, 'price': 100000.0}
+2026-02-21 19:10:58,606 | DEBUG | trading_bot | API RESPONSE futures_create_order -> {'orderId': 12441577697, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJff1a9f5b22f1a5d6e41ed3', 'price': '100000.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771681256983}
+2026-02-21 19:10:58,606 | INFO | trading_bot | Order result -> id=12441577697 status=NEW
+2026-02-21 19:11:05,950 | ERROR | trading_bot | Validation/API failure -> Price is required for LIMIT orders
