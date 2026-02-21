@@ -49,7 +49,7 @@ Create API keys from Futures Testnet API management.
 Clone repository:
 
 ```bash
-git clone https://github.com/Vivek-DK/trading_bot
+git clone https://github.com/Vivek-DK/trading_bot.git
 cd trading_bot
 ```
 
