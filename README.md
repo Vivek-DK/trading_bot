@@ -172,4 +172,5 @@ pip install -r requirements.txt
 ## 👨‍💻 Author
 
 Vivek D K
+
 Frontend Developer
