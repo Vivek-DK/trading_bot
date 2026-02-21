@@ -78,9 +78,8 @@ pip install -r requirements.txt
 Create .env file in project root:
 
 ```bash
-touch .env
-echo "BINANCE_API_KEY=your_testnet_key" >> .env
-echo "BINANCE_API_SECRET=your_testnet_secret" >> .env
+BINANCE_API_KEY="your_testnet_key" 
+BINANCE_API_SECRET="your_testnet_secret" 
 ```
 ---
 
